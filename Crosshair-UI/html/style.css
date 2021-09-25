@@ -1,0 +1,543 @@
+
+html,body {
+    background: transparent !important;
+}
+
+.container {
+
+    display: none;
+    position: absolute;
+    top: 12%;
+    left: 22%;
+    width: 1080px;
+    height: 720px;
+    background-image: url(https://cdn.discordapp.com/attachments/851650166473097217/888535989474181221/asdasdsadadasdasd.png);
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+
+.xbutton {
+    top: 0.5%;
+    right: 0.5%;
+    position: absolute;
+    background-color: rgb(255, 50, 50);
+    box-shadow: 0 0 5px rgba(255, 0, 0, 0.836);
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.fa-xing { 
+    color: white;
+    top: 18%;
+    right: 27%;
+    position: absolute;
+    font-size: 1.3vw;
+}
+
+.xbutton:hover {
+    top: 0.5%;
+    right: 0.5%;
+    position: absolute;
+    background-color: rgb(255, 32, 32);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.836);
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.grid {
+
+    position: absolute;
+    top: 35%;
+    width: 1080px;
+    height:  469    px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.box {
+
+    position: absolute;
+    top: 50px;
+    left: 15%;
+    width: 180px;
+    height:  180px;
+    background: rgba(0, 0, 0, 0.123);
+    border: 2px solid rgba(0, 0, 0, 0.842);
+}
+
+
+.box2 {
+
+    position: absolute;
+    top: 50px;
+    left: 32.3%;
+    width: 180px;
+    height:  180px;
+    background: rgba(0, 0, 0, 0.123);
+    border: 2px solid rgba(0, 0, 0, 0.842);
+}
+
+.box3 {
+
+    position: absolute;
+    top: 50px;
+    left: 49.6%;
+    width: 180px;
+    height:  180px;
+    background: rgba(0, 0, 0, 0.123);
+    border: 2px solid rgba(0, 0, 0, 0.842);
+}
+
+
+.box4 {
+
+    position: absolute;
+    top: 50px;
+    left: 67%;
+    width: 180px;
+    height:  180px;
+    background: rgba(0, 0, 0, 0.123);
+    border: 2px solid rgba(0, 0, 0, 0.842);
+}
+
+.box5 {
+
+    position: absolute;
+    top: 250px;
+    left: 15%;
+    width: 180px;
+    height:  180px;
+    background: rgba(0, 0, 0, 0.123);
+    border: 2px solid rgba(0, 0, 0, 0.842);
+}
+
+
+.box6 {
+
+    position: absolute;
+    top: 250px;
+    left: 32.3%;
+    width: 180px;
+    height:  180px;
+    background: rgba(0, 0, 0, 0.123);
+    border: 2px solid rgba(0, 0, 0, 0.842);
+}
+
+.box7 {
+
+    position: absolute;
+    top: 250px;
+    left: 49.6%;
+    width: 180px;
+    height:  180px;
+    background: rgba(0, 0, 0, 0.123);
+    border: 2px solid rgba(0, 0, 0, 0.842);
+}
+
+
+.box8 {
+
+    position: absolute;
+    top: 250px;
+    left: 67%;
+    width: 180px;
+    height:  180px;
+    background: rgba(0, 0, 0, 0.123);
+    border: 2px solid rgba(0, 0, 0, 0.842);
+}
+
+
+
+.crosshairback {
+    top: 15%;
+    left: 25%;
+    height: 85px;
+    width: 85px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.199);
+}
+
+
+.button {
+    bottom: 8%;
+    right: 8%;
+    position: absolute;
+    background-color: rgb(255, 50, 50);
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.836);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+
+	font-weight: 500;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.button:hover {
+    bottom: 8%;
+    right: 8%;
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.836);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+
+	font-weight: 500;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+img {
+    top: 20%;
+    left: 30%;
+    position: absolute;
+}
+
+.Custombutton {
+    top: 30%;
+    right: 44%;
+    position: absolute;
+    background-color: rgb(57, 255, 50);
+    box-shadow: 0 0 10px rgba(43, 255, 0, 0.836);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+
+    font-size: 1.0vw;
+	font-weight: 800;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Custombutton:hover {
+    top: 30%;
+    right: 44%;
+    position: absolute;
+    background-color: rgb(94, 255, 0);
+    box-shadow: 0 0 20px rgba(60, 255, 0, 0.836);
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+
+    font-size: 1.0vw;
+	font-weight: 800;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#crosshair {
+    
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+#crosshair-ui {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    width: 30%;
+    height: 35%;
+    border-radius: 8px;
+
+    background-color: rgba(41, 42, 66, 0.705);
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+}
+
+#crosshair-ui-submit {
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    top: 80%;
+    left: 35%;
+
+    box-shadow: 0 0 30px rgba(0,0,0,0.8);
+    background: linear-gradient(90deg , #4A00E0 0%, #8E2DE2 100%)
+}
+
+#crosshair-ui-submit:hover {
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    top: 80%;
+    left: 35%;
+    box-shadow: 0 0 30px rgba(58, 49, 90, 0.445);
+
+    background: linear-gradient(90deg , #5500ff 0%, #9326f1 100%)
+}
+
+
+#crosshair-ui-url {
+    margin: 0;
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    top: 35%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#crosshair-ui-size {
+    margin: 0;
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+#crosshair-ui-url-title {
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    top: 27.75%;
+    left: 32%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#crosshair-ui-size-title {
+    margin: 0;
+    position: absolute;
+    width: 30%;
+    height: 5%;
+    top: 57.75%;
+    left: 30%;
+    
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#crosshair-ui-title {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.root-wrapper {
+    width: 40vw;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    overflow: hidden;
+    background: transparent !important;
+}
+
+
+
+.main-wrapper {
+    width: 35%;
+    height: auto;
+    background: #141821;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    overflow: hidden;
+    border-radius: 3%;
+    padding: 1.5rem;
+    display: none;
+}
+
+.heading {
+    width: 100%;
+    max-width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    overflow: wrap;
+}
+
+.heading h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.body { 
+    width: 100%;
+    height: 100%;
+    min-height: 10%;
+    max-height: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.body label {
+    color: white;
+    margin-top: 0.8em;
+}
+
+.body input[type="text"] {
+    background: #1f2533;
+    color: white;
+    border: none;
+}
+
+.body input[type="text"]:focus {
+    box-shadow: 0 0 0 0.1rem#1f2533;
+}
+
+.body select {
+    background: #1f2533;
+    color: white;
+    border: none;
+}
+
+
+.body option {
+    background: #1f2533;
+    color: white;
+    padding: 1rem 0;
+}
+
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.btn {
+    padding: .175rem 1rem;
+}
+
+
+.background {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.452);
+    z-index: -99;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background: #4A00E0;
+    color: white;
+    border: 1px solid black;
+}
+
+
+
+
+

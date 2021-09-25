@@ -1,0 +1,144 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Crosshair UI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+
+
+<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="quit" class="xbutton"><i class="fab fa-xing"></i></div>
+        <div id="Custom" class="Custombutton">Custom URL</div>
+
+        <div class="grid">
+
+             <div class="box"> 
+                 <div class="crosshairback"></div>
+                 <img id="box1" src="">
+                 <div id="1" value="0"   class="button">Use Crosshair</div>
+            </div>
+
+            <div class="box2"> 
+                <div class="crosshairback"></div>
+                <img id="box2" src="">
+                <div id="2" value="0"   class="button">Use Crosshair</div>
+           </div>
+
+           <div class="box3"> 
+            <div class="crosshairback"></div>
+            <img id="box3" src="">
+            
+            <div id="3" value="0"   class="button">Use Crosshair</div>
+       </div>
+
+       <div class="box4"> 
+        <div class="crosshairback"></div>
+        <img id="box4" src="">
+        <div id="4" value="0"   class="button">Use Crosshair</div>
+   </div>
+
+   <div class="box5"> 
+    <div class="crosshairback"></div>
+    <img id="box5" src="">
+    <div id="5" value="0"   class="button">Use Crosshair</div>
+</div>
+
+<div class="box6"> 
+    <div class="crosshairback"></div>
+    <img id="box6" src="">
+    <div id="6" value="0"   class="button">Use Crosshair</div>
+</div>
+
+<div class="box7"> 
+    <div class="crosshairback"></div>
+    <img id="box7" src="">
+    
+    <div id="7" value="0"   class="button">Use Crosshair</div>
+</div>
+
+<div class="box8"> 
+    <div class="crosshairback"></div>
+    <img id="box8" src="">
+    <div id="8"  value="0"   class="button">Use Crosshair</div>
+</div>
+
+        </div>
+
+     </div>
+
+
+
+
+     <img id="crosshair" style="display: none";>
+    <div id="crosshair-ui" style="display: none;">
+        
+        <h2 id="crosshair-ui-title">testserver RP Crosshair</h2>
+        <p id="crosshair-ui-url-title">URL Link</p>
+        <input id="crosshair-ui-url" name="url" type="text" placeholder="Discord URL Link">
+        <p id="crosshair-ui-size-title">Size</p>
+        <input id="crosshair-ui-size" name="size" type="text" placeholder="25, 1000, ...">
+
+        <button id="crosshair-ui-submit" onclick="UpdateCrosshairData()">Save Crosshair</button>
+    </div>
+
+     <div class="root-wrapper">
+        <div class="main-wrapper">
+          <div class="heading"></div>
+          <div class="body"></div>
+
+          <div class="footer"><button type="button" class="btn btn-success" id="submit">Submit</button></div>
+
+        </div>
+        <div class="background"></div>
+      </div>
+     
+
+</div>
+
+<script>
+
+$(`#submit`).click(() => {
+    console.log("submit buton")
+    SubmitData();
+});
+
+$(`#quit`).click(() => {
+    var $page = $(".container")
+        $page.fadeOut("slow");
+        $.post('http://Crosshair-UI/close', JSON.stringify({
+  
+  quit: true})
+
+);
+});
+
+
+$('.button').on('click', function() {
+        var seatIndex = $(this).attr('value');
+        console.log("pressed")
+        Tronix_click(seatIndex)
+    });
+
+
+    
+    function Tronix_click(clicked) {
+        var $page = $(".container")
+        $page.fadeOut("slow");
+
+        console.log("id= "+clicked)
+
+        UpdateCrosshair(clicked)
+
+    }    
+
+    
+     
+</script> 
+</body> 
+</html>     
